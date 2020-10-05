@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="style.css"/>
+
+<body>
+    <div class="topPart">
+        <header>
+            <img src="img/Logo_Airbnb.svg" alt="Logo_Airbnb" class= "Logo_Airbnb"/>
+            <div class="menu">
+                <form>
+                    <select lang = "language">
+                        <option value = "english">English ENG</option>
+                        <option value = "french"> Francais FR</option>
+                        <option value = "spanish"> Espanol ES</option>
+                        <option value = "deutsch">Deutsch DE</option>
+                    </select>
+                </form>
+                <form>
+                    <select curr = "currency">
+                        <option value ="dollar">USD</option>
+                        <option value ="euro">EUR</option>
+                        <option value ="pound">GBP</option>
+                    </select>
+                </form>
+                <a href="#" class="menu-text">Become a host</a>
+                <a href="#" class="menu-text">Create your experience</a>
+                <a href="#" class="menu-text">Places to stay</a>
+                <a href="#" class="menu-text">Register</a>
+                <a href="#" class="menu-text">Help</a>
+            </div>
+        </header>
+    
+        <div class="reservation-card">
+            <p>Book unique accomodations and activities</p>
+            <span class="reservation-text">Location</span>
+            <form class="reservation" action>
+                <input type ="text" placeholder ="Where are you going?" class="location">
+            </form>
+            <div class="date-text">
+                    <span>Arrive</span>
+                    <span>Depart</span>
+            </div>
+            <div class="date-input">
+                <form class="reservation-date" action>
+                    <input type ="text" placeholder ="dd/mm/yyyy" class="arrive">
+                </form>
+                <form class="reservation-date" action>
+                    <input type ="text" placeholder ="dd/mm/yyyy" class="depart">
+                </form>
+            </div>
+            <span class="reservation-text">Guests</span>
+            <form class="reservation" action>
+                <input type ="text" placeholder ="Add guests" class="guests">
+            </form>
+            <button id="reservation-search">Search</button>
+        </div>
+    </div>
+    <h1>Explore Airbnb</h1>
+    <div class="explore">
+        <div id="card1">
+            <img src="img/Rectangle 4.svg" alt="image-card1" class="image-card1">
+            <a href="#" class="explore-text">Accomodations</a>
+        </div>
+        <div id="card2">
+            <img src="img/Rectangle 4.1.svg" alt="image-card2" class="image-card2">
+            <a href="#" class="explore-text">Experience</a>
+        </div>
+        <div id="card3">
+            <img src="img/Rectangle 4.2.svg" alt="image-card3" class="image-card3">
+            <a href="#" class="explore-text">Adventures</a>
+        </div>
+    </div>
+</body>
+

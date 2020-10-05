@@ -1,0 +1,206 @@
+.topPart {
+background-image: url(img/HERO\ BG.svg);
+background-size: cover;
+height: 750px;
+width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 40%;
+    margin-right: 2%;
+}
+
+.lang .curr {
+   color: white;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.menu-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.reservation-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 391px;
+    height: 508px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #484848;
+    margin-left: 5px;
+    margin-block-end: 5%;
+}
+.reservation-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #484848;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.location {
+    width: 95%;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.date-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #484848;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
+.date-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+.arrive {
+    width: 100%;
+    height: 48px;
+}
+.depart {
+    height: 48px;
+    width:100%;
+}
+
+.guests {
+    width: 95%;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#reservation-search {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: coral;
+    margin-top: 20px;
+    width: 120px;
+    height: 48px;
+    margin-left: 220px;
+    border-radius: 5px;
+}
+
+h1{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+color: #484848;
+margin-left: 10%;
+}
+
+.explore {
+    display: flex;
+    flex-direction: row;
+}
+
+#card1 {
+    width: 390px;
+    height: 85px;
+    border-radius: 5px;
+    border: solid grey 1px;
+    margin-left: 4%;
+}
+#card2{
+    width: 390px;
+    height: 85px;
+    border-radius: 5px;
+    border: solid grey 1px;
+    margin-left: 2%
+}
+#card3{
+    width: 390px;
+    height: 85px;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.15));
+    border-radius: 5px;
+    border: solid grey 1px;
+    margin-left: 2%;
+    margin-right: 4%
+}
+.explore-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #484848;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu {
+        margin-left: 20%;
+    }
+    .explore {
+        flex-direction: column;
+    }
+    #card1 {
+        margin-left: 2%;
+    }
+    
+
+}
