@@ -1,0 +1,116 @@
+.Top_pic{
+    background-image: url(img/beach2.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.Top_pic p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+#s3slider {
+    width: 400px; /* important to be same as image width */
+    height: 340px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+    box-shadow: 5px 10px 18px #484848;
+}
+
+#s3sliderContent {
+    width: 400px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+}
+
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+
+.s3sliderImage img {
+    width: 400px; 
+    height: 340px;
+}
+
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 374px;
+    background-color: black;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown
+                                at the bottom of the image
+    */
+}
+
+.clear {
+    clear: both;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    }
+
+.right_side{
+    box-shadow: 5px 10px 18px #484848;
+    border-radius: 3px;
+    width: 60%;
+    margin-left: 5%;
+    height: 340px;
+}
+
+#right{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #484848;
+    text-decoration: none;
+    margin-left: 5%;
+}
+    
+.tours {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.walk, .hiking, .boat{
+    margin: auto;
+}
+#Cancun, #Bali, #boat{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #484848;
+    text-decoration: none;
+    margin: auto;
+    margin-left: 5%;
+}
+.boat{
+    width: 185px;
+    height: 245px;
+    border-radius: 2px;
+}

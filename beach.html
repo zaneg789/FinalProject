@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="beachstyle.css"/>
+
+<body>
+    <div class="Top_pic">
+        <p>Beach<br>
+        Book your holidays in the most beautiful beaches in the world today!
+        </p>
+    </div>
+    <div class="body">
+        <div id="s3slider">
+            <ul id="s3sliderContent">
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach3.jpg">
+                    <span>Thailand, from 50 USD a day</span>
+                </li>
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach4.jpg">
+                    <span>Dominican Republic, from 30 USD a day </span>
+                </li>
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach5.jpg">
+                    <span>Maldives, from 65 USD a day</span>
+                </li>
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach6.jpg">
+                    <span>Florida, from 20 USD a day</span>
+                </li>
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach7.jpg">
+                    <span>Indonesia, from 45 USD a day</span>
+                </li>
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach8.jpg">
+                    <span>Malibu, from 40 USD a day</span>
+                </li>
+                <li class="s3sliderImage">
+                    <img src="gallery_beach/beach9.jpg">
+                    <span>Mexico, from 40 USD a day</span>
+                </li>
+                <div class="clear s3sliderImage"></div>
+            </ul>
+        </div>
+    
+        <div class="right_side">
+            <span id="right">You also might like...</span><br>
+            <div class ="tours">
+                <img src="img/Image.svg" alt="walk" class="walk">
+                <img src="img/Image1.svg" alt="walk" class="hiking">
+                <img src ="img/boat.jpg" alt="boat" class="boat">
+                <span id="Cancun">Explore the sandy beach in Cancun.<br>
+                    From 20 USD per person
+                </span>
+                <span id="Bali">Jungle tour in Bali.<br>
+                    From 30 USD per person
+                </span>
+                <span id="boat">Enjoy the sun and the ocean on the boat tour in Phi Phi islands.<br>
+                From 70 USD per person. </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="s3Slider/s3Slider.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+        $(document).ready(function() {
+        $('#s3slider').s3Slider({
+            timeOut: 4000
+        });
+    
+    });
+    </script>
